@@ -1,10 +1,6 @@
 const express = require('express')
 const router = express.Router()
-
-const Hubspot = require('hubspot')
-const hubspot = new Hubspot({
-    apiKey: 'a7b768b4-98a7-4c0e-a62c-b0396fd6c8fb',
-})
+const hubspot = require('../lib/hubspot')
 
 router.get('/', async(req, res) => {
     let opts = {
