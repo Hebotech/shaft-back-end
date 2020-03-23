@@ -1,0 +1,25 @@
+{
+  "name": "shaft-back-end",
+  "version": "1.0.0",
+  "description": "Shaft back end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hebotech/shaft-back-end.git"
+  },
+  "keywords": [
+    "shaft",
+    "back",
+    "end",
+    "node"
+  ],
+  "author": "IrfDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hebotech/shaft-back-end/issues"
+  },
+  "homepage": "https://github.com/Hebotech/shaft-back-end#readme"
+}
