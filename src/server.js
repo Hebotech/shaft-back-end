@@ -7,6 +7,8 @@ app.use(cors())
     // app.use(express.json())
 app.use('/companies', companiesRouter)
 
+require('./prod')(app);
+
 app.get('/', (req, res) => {
     res.json({
         "message": 'Api Shaft working'

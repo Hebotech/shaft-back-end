@@ -11,7 +11,7 @@ const listenServer = function() {
 
 async function main() {
     await listenServer()
-    console.log('SERVER LISTENING on port 8080')
+    console.log('SHAFT SERVER LISTENING on port 8080')
 }
 
 main()
