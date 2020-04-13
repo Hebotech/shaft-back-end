@@ -1,9 +1,10 @@
 require('dotenv').config()
+const { PORT } = process.env
 
 const server = require('./src/server')
 const listenServer = function() {
     return new Promise((resolve, reject) => {
-        server.listen(8080, () => {
+        server.listen(PORT, () => {
             resolve()
         })
     })
@@ -11,7 +12,7 @@ const listenServer = function() {
 
 async function main() {
     await listenServer()
-    console.log('SHAFT SERVER LISTENING on port 8080')
+    console.log(`SHAFT SERVER LISTENING on port ${PORT}`)
 }
 
 main()
