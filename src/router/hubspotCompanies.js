@@ -4,7 +4,7 @@ const hubspot = require('../lib/hubspot')
 
 router.get('/', async(req, res) => {
     let opts = {
-        properties: ['name', 'website', 'country', 'clics_de_hebotech'],
+        properties: ['name', 'website', 'country', 'clics_de_hebotech', 'fav'],
     }
     try {
         const allCompanies = await hubspot.companies.get(opts)
