@@ -1,0 +1,20 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#335084",
+    "activityBar.activeBorder": "#2e121c",
+    "activityBar.background": "#335084",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#2e121c",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBar.background": "#253a5f",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#335084",
+    "titleBar.activeBackground": "#253a5f",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#253a5f99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#253A5F",
+  "window.title": "Shaft Backend ⚡️ ${separator} ${activeEditorShort}"
+}
